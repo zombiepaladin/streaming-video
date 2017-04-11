@@ -1,0 +1,26 @@
+{
+  "name": "streaming-video",
+  "version": "1.0.0",
+  "description": "An example streaming video server written in Nodejs.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "mkdir videos && cd videos && curl -O https://cdn.spacetelescope.org/archives/videos/medium_podcast/hubblecast95a.mp4 && curl -O https://cdn.spacetelescope.org/archives/videos/hd_and_apple/hubblecast95a.m4v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zombiepaladin/streaming-video.git"
+  },
+  "keywords": [
+    "video",
+    "html5",
+    "streaming",
+    "nodejs"
+  ],
+  "author": "Nathan H. Bean",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zombiepaladin/streaming-video/issues"
+  },
+  "homepage": "https://github.com/zombiepaladin/streaming-video#readme"
+}
